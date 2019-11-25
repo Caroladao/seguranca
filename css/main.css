@@ -517,7 +517,7 @@ iframe {
   }
 }
 
-.background{
+.background {
   position: absolute;
   opacity: .5;
   background-image: linear-gradient(120deg, #0F1422 50%, #239291 100%);
@@ -527,3 +527,6 @@ iframe {
   height: 100%;
 }
 
+.noty_body {
+  width: 600px;
+}
