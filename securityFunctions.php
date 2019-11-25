@@ -18,7 +18,7 @@
     $pass = $rows["pass"];
 
     if( $count > 0 ) {
-      $logged = $pass == hash( "sha256", $password ); 
+      $logged = strcmp($pass, $password) == 0; 
     }
 
     if( $logged ):

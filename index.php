@@ -34,7 +34,7 @@
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate="Insita a senha">
-            <input class="input100" type="text" name="password" id="password
+            <input class="input100" type="password" name="password" id="password
             " placeholder="Senha">
 						<span class="focus-input100" data-placeholder="&#xe80f;"></span>
 					</div>
