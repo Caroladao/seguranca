@@ -12,7 +12,7 @@
                     pass = '$password'";
 
     $result = mysqli_query($con, $query);
-    $rows = mysqli_fetch_array($result);
+    $rows = $result ? mysqli_fetch_array($result) : null;
 
     if( $rows ):
   ?>

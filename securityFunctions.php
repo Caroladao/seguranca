@@ -5,7 +5,10 @@
     $con = mysqli_connect("127.0.0.1", "root", "", "seguranca");
 
     $user = $_POST['user'];
-    $password = $_POST['password'];
+    $password = hash( "sha256", $_POST['password'] );
+
+    // echo '<script> alert( "'.$password.'" ) </script>';
+
     $query = "SELECT user, pass 
               FROM users
               WHERE user = '$user'";
